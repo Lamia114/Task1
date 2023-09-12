@@ -1,0 +1,43 @@
+/* Add your custom CSS rules here */
+
+/* Center the content both horizontally and vertically */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6cb3e2, #f2eceb); /* Gradient background */
+    color: #fff; /* Text color */
+}
+
+/* Style the heading */
+h1 {
+    font-size: 3em; /* Increase the font size */
+    font-weight: bold; /* Add bold font weight */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Change the color of "Devkit" */
+h1 span {
+    color: #f1f130; /* Change to your desired color (e.g., orange) */
+}
+
+/* Style the paragraph */
+p {
+    font-size: 1.5em; /* Increase the font size */
+    margin-bottom: 30px; /* Add more bottom margin */
+}
+
+/* Style the app badges */
+.app-badge {
+    max-width: 150px; /* Increase the badge size */
+    border: 2px solid #fff; /* Add a white border */
+    border-radius: 10px; /* Add border radius */
+    margin-right: 20px;
+}
+
+/* Hover effect on app badges */
+.app-badge:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+    transition: transform 0.3s ease;
+}
