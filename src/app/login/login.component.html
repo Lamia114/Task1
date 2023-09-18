@@ -1,92 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f4f4f4;
-        }
 
-        .login-page {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
 
-        .login-container {
-            background-color: #ffffff;
-            border-radius: 10px;
-            padding: 15px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            max-width:500px; /* Reduce container width */
-            width: 100%;
-        }
-
-        .login-container h3 {
-            text-align: center;
-        }
-
-        .form-label {
-            font-weight: bold;
-        }
-
-        .form-check-label {
-            color: blue;
-        }
-
-        /* Rounded border for the Login button */
-        .rounded-login-button {
-            border-radius: 50px;
-        }
-    </style>
-</head>
-<body>
-    <div class="login-page">
-        <div class="login-container">
-            <h3 class="mb-3">LOGIN</h3>
-            <form action="" class="row g-4">
-                <div class="col-12">
-                    <label class="form-label">Username<span class="text-danger">*</span></label>
-                    <div class="input-group">
-                        <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
-                        <input type="text" class="form-control" placeholder="Enter Username">
-                    </div>
+<section class="vh-100 gradient-custom" style="color: beige;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center  align-items-center h-100 ">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong" style="border-radius: 20px; width: 380px;">
+            <div class="card-body p-5 text-center">
+  
+              <div class="login" >
+  
+                <h2 class="fw-bold mb-2 text-uppercase">Login</h2><br>
+                <div class="form-outline form-white mb-4">
+                  
+                  <input   type="username" id="form2Example11" class="form-control"
+                  placeholder="Username" />
+                  
+                  
                 </div>
-
-                <div class="col-12">
-                    <label class="form-label">Password<span class="text-danger">*</span></label>
-                    <div class="input-group">
-                        <div class="input-group-text"><i class="bi bi-lock-fill"></i></div>
-                        <input type="password" class="form-control" placeholder="Enter Password">
-                    </div>
+  
+                <div class="form-outline form-white mb-4">
+                  <input type="password" id="form2Example11" class="form-control"
+                  placeholder="Password" />
+                </div> 
+  
+                <div class="d-flex justify-content-between align-items-center">
+                  <!-- Checkbox -->
+                  <div class="form-check mb-0">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                    <label class="form-check-label" for="form2Example3">
+                      Remember me
+                    </label> <br> <br>
+                  </div>
+                 
                 </div>
-
-                <div class="col-sm-6">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
-                        <label class="form-check-label" for="inlineFormCheck">Remember me</label>
-                    </div>
+  
+                <div class="text-center ">
+                <button  class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button" style="width: 300px;background: linear-gradient(to left, #ff9933 0%, #ff99cc 100%); border-color: #ffffff; border-radius: 20px;" routerLink="home-page">LOG IN
+                </button> <br>
+                <p style="color: rgb(144, 139, 139);">Forget Password</p>
                 </div>
-
-                <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-primary btn-block mt-4 rounded-login-button" routerLink="homePage" style="width: 200px;">
-                        Login
-                    </button>
+                <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                  <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                  <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
                 </div>
-                <div class="col-sm-6">
-                    <a href="#" class="float-end text-primary">Forgot Password?</a>
-                </div>
-                <div class="col-sm-6">
-                    <p class="mb-0">Not a member? <a href="#!" class="text-primary ml-1">Sign Up Now</a></p>
-                </div>
-            </form>
+  
+              </div>
+  
+              <div>
+                <p class="mb-0" >Not a member?  <a href="#!" class="text-black-50 fw-bold" style="color: rgb(12, 12, 12);" >Sign Up Now</a> </p> 
+              </div>
+  
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-
-    <!-- Bootstrap JS -->
-</body>
-</html>
+  </section>
